@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    height: 100%;
+}
+
+.navbar{
+    color: #aaaaaa;
+    overflow: hidden;
+    height: 60px;
+    background-color: white;
+}
+
+.navcontent{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    width: 1040px;
+}
+
+.name{
+    color: white;
+    float: left;
+    background-color: #4aaaa5;
+    padding: 0px 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    padding: 0px 20px 0px 20px;
+}
+
+.content{
+    padding: 40px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    width: 960px;
+    height: 100vh;
+}
+
+.content p{
+    color: #767676;
+}
+
+.cat{
+    float: left;
+    padding: 0px 10px 10px 0px;
+    height: 200px;
+    width: 200px;
+}
+
+.content h1{
+    color: #4aaaa5;
+}   
+
+.content hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.footer{
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 60px;
+}
+
+.footer p{
+    text-align: center;
+    padding-top:25px;
+    color: white;
+}
+
+.text_field{
+    width: 100%;
+    height: 30px;
+}
+
+#message{
+    height: 80px;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.images{
+    float: left;
+
+}
+
+.images:nth-of-type(even){
+    float: right;
+}
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: red;
+    width: 400px;
+    height: 200px;
+    padding: 0px 0px 30px 0px;
+    margin: 20px;
+}
+
+#giraffe{
+    background-image: url("../images/giraffe.jpg");
+}
+
+#lake{
+    background-image: url("../images/lake.jpg");
+}
+
+#board{
+    background-image: url("../images/board.jpg"); 
+}
+
+#coil{
+    background-image: url("../images/coil.jpg");
+}
+
+#color{
+    background-image: url("../images/color.jpg");
+}
+
+.banner{
+    height: 45px;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
